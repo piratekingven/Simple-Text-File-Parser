@@ -15,4 +15,5 @@ If we pass an empty file to the program, or don't even pass a file to the progra
 Syntax to use : a.exe [filename] [ for Windows ]
 
 Syntax to use : ./a.out [filename] [ for Linux ]
+
 (Too broke for Mac)
