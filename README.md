@@ -13,5 +13,6 @@ Once the parsing is over, we print the stored words and their lengths, and then 
 If we pass an empty file to the program, or don't even pass a file to the program, it will print the appropriate message and exit the program.
 
 Syntax to use : a.exe [filename] [ for Windows ]
+
 Syntax to use : ./a.out [filename] [ for Linux ]
 (Too broke for Mac)
