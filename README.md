@@ -6,7 +6,7 @@ We parse the words and store the words and their lengths in an extendable array 
 
 The extendable array is created using a pointer and malloc, so we can accommodate an increasing number of words.
 
-We don't allocate memory each time for each byte/array slot when it is required (which is very inefficient) and instead, allocate multiple bytes/array slots of memory at once when needed, and then cut the memory that is not used using realloc(), so we only use memory that we truly use. 
+We don't allocate memory each time for each byte/array slot when it is required (which is very inefficient) and instead, allocate multiple bytes/array slots of memory at once when needed, and then cut the memory that is not used using realloc(), so we only have memory that we truly use. 
 
 Once the parsing is over, we print the stored words and their lengths, and then free the memory allocated using free().
 
